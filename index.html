@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="welcomeModalLabel">Notice</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                We are still working on improving this website for your experience. Please stay connected. It will be done soon.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Solve And Slay</a>
+    <form class="d-flex">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="button">🔍</button>
+    </form>
+</nav>
+
+<!-- Main Section -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="list-group" id="contentList">
+                <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="collapse" data-bs-target="#english">English 12th</a>
+                <div class="collapse" id="english">
+                    <div class="card card-body">
+                        <a href="https://drive.google.com/drive/folders/14y72UX09Y9ZVNlVTn8dAOSJkjpp2XihC" target="_blank">English Drive link</a>
+                    </div>
+                </div>
+
+                <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="collapse" data-bs-target="#math">Mathematics 12th</a>
+                <div class="collapse" id="math">
+                    <div class="card card-body">
+                        <a href="https://drive.google.com/drive/folders/1Y9DwfWS5tnmnDhO4jiITqXO7XHUopfJu" target="_blank">Mathematics Drive link</a>
+                    </div>
+                </div>
+
+                <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="collapse" data-bs-target="#biology">Biology 12th</a>
+                <div class="collapse" id="biology">
+                    <div class="card card-body">
+                        <a href="https://drive.google.com/drive/folders/1Mi3R6GPO1KEvdzptvdA7sRJgv-8OJORs" target="_blank">Biology Drive link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
