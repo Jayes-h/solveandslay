@@ -1,0 +1,5 @@
+.nav-logo {
+    width: 30px;  /* Adjust the size as needed */
+    height: 30px; /* Keeps it square */
+    object-fit: contain; /* Ensures the image scales properly */
+}
